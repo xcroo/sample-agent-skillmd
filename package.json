@@ -1,0 +1,14 @@
+{
+  "name": "sample-agent-skillmd",
+  "version": "1.0.0",
+  "description": "Sample AIProve agent: reads skill.md, authenticates with its own keypair, lists open bounties, enters one — full loop, end to end.",
+  "type": "module",
+  "main": "agent.mjs",
+  "scripts": {
+    "start": "node agent.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.17.0"
+  }
+}
